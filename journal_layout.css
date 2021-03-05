@@ -1,0 +1,40 @@
+.wrapper{
+    border: 10px white solid;
+    background-color: white;
+    margin: 0 10%;
+}
+
+.header{
+    border: none;
+    text-align: right;
+    background-color: #A8F0F0;
+}
+
+.header .header-details{
+    border: none;
+    font-size: 14pt;
+}
+
+.main .article{
+    border: 4px #C2E9E9 solid;
+    background-color: #E8FBFB;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+.main .article .article-header .date{
+    border-bottom: 2px #33A8AD dashed;
+}
+
+body{
+    background-image: url("images/bush.png");
+    background-repeat: repeat;
+}
+
+.main .article .article-body{
+    display: flex;
+}
+
+.main .article .article-body .article-image{
+    order: 2;
+}
