@@ -1,0 +1,113 @@
+/* Html tags */
+
+body{
+    font-family: 'Bebas', sans-serif;                                                            
+}
+
+nav{
+    padding: 10px;
+}
+
+/* Classes */
+
+.contentBody{
+    padding-top: 1%;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+.navbar-header {
+    float: left;
+    padding: 15px;
+    width: 100%;
+}
+
+.navbar-brand {
+    float:none;
+    font-size: 200%;
+}
+
+.nav-item{
+    padding: 0 1em 0 1em;
+}
+
+.nav-item>a{
+    font-size: 120%;
+}
+
+.nav-item>a:hover{
+    color: #FFFFFF;
+}
+
+.footer{
+    padding: 1.5em 0 1.5em 0;
+}
+
+.footerBrand{
+    text-decoration: none;
+    font-size: 130%;
+    color: #D6D6D6;
+}
+
+.footerBody .navbar-nav{
+    flex-direction: row;
+}
+
+
+footer .footerBody li .nav-link{
+    display: list-item;
+}
+
+.bg-dark {
+    background-color: #0A0A0A!important;
+}
+
+.card{
+    display: inline-flex;
+    border:none;
+    align-items: stretch;
+    text-align: center;
+}
+
+.cardBody, .cardImage{
+    padding: 2% 0 2% 0;
+}
+
+.cardBody{
+    text-align: left;
+    padding-left: 2%;
+}
+
+.cardHeader{
+}
+
+.cardText{
+    font-size: 1.2em;
+}
+
+.cardHeader h1{
+    font-size: 4em;
+}
+
+.spaceMaker{
+    height: 106px;
+    width: 100%;
+}
+
+/* ids */
+
+
+
+/* mixed */
+
+#mocha h2 {
+    font-size: 12px;
+}
+
+
+/* MEDIA */
+
+@media (max-width: 1366px) {
+    .navbar-header{
+        font-size: 140%;
+    }
+}

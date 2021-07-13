@@ -1,78 +1,206 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
-	<title>V's Journal</title>
-	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
-	<!-- This links to a stylesheet that gives basic formatting to your page; you do not need to modify this. -->
-	<link rel="stylesheet" type="text/css" href="journal_basic.css" title="style" />
-	
-	<!-- This is linking to your stylesheet, journal_layout.css -->
-	<link rel="stylesheet" type="text/css" href="journal_layout.css" title="style" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <!-- FONTS -->
+
+    <!-- coco font  -->
+    <link href="http://fonts.cdnfonts.com/css/coco" rel="stylesheet">
+    <!-- bebas font -->
+    <link href="http://fonts.cdnfonts.com/css/bebas" rel="stylesheet">
+    <!-- existence light font -->
+    <link href="http://fonts.cdnfonts.com/css/existence-light" rel="stylesheet">
+    <!-- poppins font -->
+    <link href="http://fonts.cdnfonts.com/css/poppins" rel="stylesheet">
+    <!-- barlow font -->
+    <link href="http://fonts.cdnfonts.com/css/barlow-condensed" rel="stylesheet">
+                
+                
+                
+
+
+    <link href="style.css" rel="stylesheet">
+    <script src="script.js"></script>
+
+    <title>Javascript - Vladimir Khvan</title>
 </head>
 
 <body>
 
-	<div class="wrapper">
+    <header>
 
-		<div class="header">
+        <nav class="navbar navbar-expand-lg sticky-top navbar-dark bg-dark">
 
-			<div class="header-title">	<h1>Victoria's Journal</h1>	</div>
-			<div class="header-details">	<h2>So fresh and so clean</h2>	</div>
-	
-		</div>
-	
-		<div class="main">
-	
-			<div class="article">
-				<div class="article-header">
-					<h2>	<span class="date">04/09/08</span>: <span class="title">Spatulas</span> 	</h2>
-				</div>
-	
-				<div class="article-body">
-					<div class="article-image">
-						<p>
-							<img src="images/spatula.gif" alt="Much-needed spatula" />
-						</p>
-					</div>
-	
-					<div class="article-content">
-						<p>
-							Yesterday I went to the store and got some much-needed <a href="http://www.youtube.com/watch?v=2XbCWmY0eqY">spatulas</a>! (What better way to say I love myself than to buy myself a spatula?)
-						</p>
-					</div>
-				</div>
-			</div>
-	
-			<div class="article">
-				<div class="article-header">
-					<h2>	<span class="date">04/08/08</span>: <span class="title">Cookie Monster Cupcakes</span> 	</h2>
-				</div>
-	
-				<div class="article-body">
-					<div class="article-image">
-						<p>
-							<img src="images/cookiemonster.jpg" alt="Cookie Monster: in cupcake form!" />
-						</p>
-					</div>
-	
-					<div class="article-content">
-						<p>
-							My favorite cartoon character is Cookie Monster, and my favorite dessert is cupcakes, so Cookie Monster cupcakes are the best of both worlds.
-						</p>
-						<p>
-							Did you know? Cookie Monster once said, <q>Sometimes me think what is love, and then me think love is what last cookie is for. Me give up the last cookie for you.</q> I wonder if the same applies for cupcakes? (If so, I don't think I can ever love ANYONE!)
-						</p>
-					</div>
-				</div>
-			</div>
-			
-		</div>
+            <div class="container">
 
-	</div>
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#">VladimirKhvan</a>
+                </div>
 
-	
-	
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse " id="navbarSupportedContent">
+
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">home</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">about</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">projects</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">links</a>
+                        </li>
+
+                        
+                    </ul>
+
+                </div>
+
+            </div>
+
+        </nav>
+
+    </header>
+
+    <div class="container contentBody">
+        <div class="row">
+
+            <div class="container card">
+                <div class="row">
+    
+                    <div class="col-lg-7 cardBody">
+
+                        <div class="cardHeader">
+                            <h1>about*</h1>
+                        </div>
+    
+                        <div class="cardText">
+                            <p>
+                                Currently, I'm professional student, superior dreamer, and a quater of programmer. 
+                            </p>
+                        </div>
+    
+                    </div>
+                    
+                    <div class="col-lg-5 cardImage">
+                        <img src="img/img.jpg" alt="">
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="container card">
+                <div class="row">
+                    
+                    <div class="col-lg-5 cardImage">
+                        <img src="img/img.jpg" alt="">
+                    </div>
+    
+                    <div class="col-lg-7 cardBody">
+
+                        <div class="cardHeader">
+                            <h1>projects*</h1>
+                        </div>
+    
+                        <div class="cardText">
+                            <p>
+                                checkout GITHUB to see all my creations. This frankenstein is also there? 
+                            </p>
+                        </div>
+    
+                    </div>
+                    
+
+                </div>
+            </div>
+
+            <div class="container card">
+                <div class="row">
+    
+                    <div class="col-lg-7 cardBody">
+
+                        <div class="cardHeader">
+                            <h1>links*</h1>
+                        </div>
+    
+                        <div class="cardText">
+                            <p>
+                                find me on GITHUB, codewars, and instagram 
+                            </p>
+                        </div>
+    
+                    </div>
+                    
+                    <div class="col-lg-5 cardImage">
+                        <img src="img/img.jpg" alt="">
+                    </div>
+
+                </div>
+            </div>
+
+
+
+        </div>
+    </div>
+
+    <div class="spaceMaker"></div>
+
+    <footer>
+        <nav class="navbar fixed-bottom navbar-dark bg-dark">
+            <div class="container footer">
+
+                <div class="footerHeader">
+                    <a class="footerBrand" href="#">Vladimir Khvan</a>
+                </div>
+                
+                <div class="footerBody">
+
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">about</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">projects</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">links</a>
+                        </li>
+
+                        
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+    </footer>
+
 </body>
 
 </html>
