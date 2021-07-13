@@ -107,12 +107,12 @@ footer .footerBody li .nav-link{
 /* FONTS */
 @font-face {
     font-family: 'Barlow Condensed';
-    src: url(fonts/BarlowCondensed-Medium.ttf);
+    src: url(./fonts/BarlowCondensed-Medium.ttf);
 }
 
 @font-face {
     font-family: 'Bebas';
-    src: url(fonts/BebasNeue-Regular.ttf);
+    src: url(./fonts/BebasNeue-Regular.ttf);
 }
 
 /* MEDIA */
