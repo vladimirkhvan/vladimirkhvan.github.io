@@ -1,7 +1,7 @@
 /* Html tags */
 
 body{
-    font-family: 'Bebas', sans-serif;                                                            
+    font-family: 'Bebas';                                                            
 }
 
 nav{
@@ -13,7 +13,7 @@ nav{
 
 .contentBody{
     padding-top: 1%;
-    font-family: 'Barlow Condensed', sans-serif;
+    font-family: 'Barlow Condensed';
 }
 
 .navbar-header {
