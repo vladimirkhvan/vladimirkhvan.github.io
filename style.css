@@ -5,6 +5,7 @@ body{
 }
 
 nav{
+    font-size: 120%;
     padding: 10px;
 }
 
@@ -103,6 +104,16 @@ footer .footerBody li .nav-link{
     font-size: 12px;
 }
 
+/* FONTS */
+@font-face {
+    font-family: 'Barlow Condensed';
+    src: url(fonts/BarlowCondensed-Medium.ttf);
+}
+
+@font-face {
+    font-family: 'Bebas';
+    src: url(fonts/BebasNeue-Regular.ttf);
+}
 
 /* MEDIA */
 
