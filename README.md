@@ -1,1 +1,1 @@
-### <a href="https://pizza-shop-wheat.vercel.app/">Check deployed project</a>
+### <a href="https://vladimirkhvan.github.io/">Check deployed project</a>
