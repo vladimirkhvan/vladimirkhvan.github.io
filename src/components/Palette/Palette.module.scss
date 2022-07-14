@@ -1,0 +1,36 @@
+.palette{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 30%;
+
+    margin-bottom: 20px;
+
+    @media screen and (max-width: 600px) {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .color{
+        width: 30px;
+        height: 20px;
+        border-radius: 5px;
+        cursor: pointer;
+
+        @media screen and (max-width: 600px) {
+            margin: 10px;
+        }
+    }
+
+    .lightGreen{
+        background-color: #B3DEC1;
+    }
+
+    .brown{
+        background-color: #D4AA7D;
+    }
+
+    .dark{
+        background-color: #000000;
+    }
+}

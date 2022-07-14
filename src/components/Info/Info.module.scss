@@ -1,0 +1,77 @@
+@import '../../scss/mixins/noSelect';
+@import '../../scss/variables';
+
+.info {
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+
+    @media screen and (max-width: 1250px) {
+        margin: 30px 0 50px;
+    }
+
+    @media screen and (max-width: 630px) {
+        margin: 0 15px 50px;
+    }
+
+    .title {
+        margin-bottom: 12px;
+        text-align: center;
+        @include noselect();
+    }
+
+    .downloadButton {
+        padding: 20px 30px;
+        border-radius: 10px;
+
+        margin-top: 15px;
+
+        transition: background-color 0.1s ease-in-out, color 0.2s ease-in-out,
+            transform 0.1s ease-in-out;
+
+        &:hover {
+            transform: translateY(-2px);
+        }
+    }
+}
+
+.green {
+    .downloadButton {
+        border: 1px solid $green-dark;
+
+        &:hover {
+            background-color: $green-dark;
+            color: white;
+        }
+    }
+}
+
+.brown {
+    .downloadButton {
+        border: 1px solid $brown-deep;
+
+        &:hover {
+            background-color: $brown-deep;
+            color: white;
+        }
+    }
+}
+
+.dark {
+    .title {
+        color: white;
+    }
+
+    .downloadButton {
+        border: 1px solid white;
+        color: white;
+
+        &:hover {
+            border-color: $dark-deep;
+            background-color: $dark-deep;
+            color: white;
+        }
+    }
+}

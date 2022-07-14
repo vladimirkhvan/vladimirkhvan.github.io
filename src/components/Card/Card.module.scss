@@ -1,0 +1,206 @@
+@import '../../scss/mixins/noSelect';
+@import '../../scss/variables';
+
+.card {
+    width: 400px;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 10px;
+
+    box-shadow: rgba(13, 13, 13, 0.1) 0px 20px 30px;
+
+    @media screen and (max-width: 440px) {
+        width: 300px;
+    }
+
+    .photo {
+        border-radius: 10px 10px 0 0;
+        @media screen and (max-width: 440px) {
+            width: 300px;
+            height: 300px;
+        }
+    }
+
+    .info {
+        padding: 20px 35px;
+
+        .name {
+            font-size: 25px;
+            text-align: center;
+
+            color: rgba(6, 14, 9, 1);
+
+            margin-bottom: 6px;
+        }
+
+        .position {
+            font-weight: 400;
+            font-size: 18px;
+            text-align: center;
+
+            color: rgba(6, 14, 9, 0.8);
+
+            margin-bottom: 9px;
+        }
+
+        .githubLink {
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 150%;
+            text-align: center;
+
+            color: rgba(6, 14, 9, 0.8);
+
+            margin-bottom: 17px;
+        }
+
+        .buttonGroup {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 25px;
+        }
+
+        .button {
+            width: 148px;
+
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            padding: 9px 13px;
+            gap: 8px;
+            box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+            border-radius: 6px;
+
+            transition: transform 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+
+            svg {
+                height: 15px;
+            }
+
+            &:hover {
+                transform: translateY(-2px);
+                box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+            }
+        }
+
+        .emailButton {
+            background: #ffffff;
+
+            margin-right: 17px;
+
+            border: 1px solid #d1d5db;
+
+            svg {
+                path {
+                    fill: black;
+                }
+            }
+        }
+
+        .linkedinButton {
+            background: #297fe5;
+
+            color: white;
+
+            svg {
+                path {
+                    fill: white;
+                }
+            }
+        }
+
+        .title {
+            font-size: 16px;
+            line-height: 150%;
+
+            color: #2b283a;
+
+            margin-bottom: 5px;
+        }
+
+        .description {
+            font-weight: 400;
+            font-size: 13px;
+            line-height: 150%;
+
+            color: #4a4e74;
+
+            margin-bottom: 24px;
+
+            display: flex;
+            flex-wrap: wrap;
+        }
+    }
+
+    .pill {
+        border-radius: 10px;
+        padding: 6px 8px;
+        margin-right: 5px;
+        margin-bottom: 4px;
+        color: #4a4e74;
+
+        transition: outline 0.1s ease-in-out, color 0.1s ease-in-out,
+            background-color 0.1s ease-in-out;
+
+        @include noselect();
+
+        &:hover {
+            background-color: $green-light;
+        }
+    }
+
+    .footer {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 20px 0;
+
+        border-radius: 0 0 10px 10px;
+
+        svg {
+            path {
+                fill: white;
+            }
+        }
+    }
+}
+
+.green {
+    .pill {
+        outline: 0 solid $green-dark;
+        &:hover {
+            outline: 1px solid $green-dark;
+            color: black;
+        }
+    }
+    .footer{
+        background-color: $green-dark;
+    }
+}
+
+.brown {
+    .pill {
+        outline: 0 solid $brown-deep;
+        &:hover {
+            outline: 1px solid $brown-deep;
+            color: black;
+        }
+    }
+    .footer{
+        background-color: $brown-deep;
+    }
+}
+
+.dark {
+    .pill {
+        outline: 0 solid $dark-deep;
+        &:hover {
+            outline: 1px solid $dark-deep;
+            color: black;
+        }
+    }
+    .footer{
+        background-color: $dark-deep;
+    }
+}
